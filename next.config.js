@@ -6,7 +6,7 @@ const nextConfig = {
     },
     images: {
         domains: ["occ-0-448-3419.1.nflxso.net","occ-0-3933-116.1.nflxso.net"]
-    }
-}
+    },
+};
 
 module.exports = nextConfig
