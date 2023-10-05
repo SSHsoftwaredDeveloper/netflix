@@ -19,7 +19,11 @@ const options = {
   const data = await res.json();
   const main_data = data.titles;
 
-  console.log(main_data.jawSummary)
+  if (main_data && main_data.jawSummary) {
+    console.log(main_data.jawSummary);
+  } else {
+    console.log('jawSummary is undefined or missing in data');
+  }
 
   return (
     <>
